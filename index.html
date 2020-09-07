@@ -6,118 +6,105 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css">
-
-    <link href="assets/css/fontawesome/all.css" rel="stylesheet">
-
-    <link rel="stylesheet" href="assets/css/bootstrap-example-styles.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
-
-    <title>tut pomogut</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" crossorigin="anonymous">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/styles.css" crossorigin="anonymous">
+    <title>Тут Помогут!</title>
 </head>
 <body>
-
-<nav class="top-menu site-header sticky-top py-1">
-    <div class="container d-flex flex-column flex-md-row justify-content-between">
-        <a class="top-menu__logo py-2" href="#" aria-label="Product">
-            <img src="assets/images/logo.svg" class="top-menu__logo-image">
-            <span class="top-menu__logo-text">tut pomogut</span>
-        </a>
-        <a class="py-2 d-none d-md-inline-block" href="https://t.me/tut_pomogut_bot">t.me/tut_pomogut_bot</a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Стань волонтером</a>
+<section class="main container-fluid">
+    <div class="container">
+        <div class="row header">
+            <div class="col-4">
+                <span class="logo"></span>
+            </div>
+            <div class="col-8 d-flex justify-content-end align-items-center">
+                <a href="https://t.me/tut_pomogut_bot" target="_blank" class="tg_link">t.me/tut_pomogut_bot</a>
+                <a href="#" target="_blank" class="become_volunteer">Стать волонтёром</a>
+            </div>
+        </div>
     </div>
-</nav>
-
-<div class="main position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center">
-    <div class="col-md-8 p-lg-5 mx-auto my-5">
-        <h1 class="display-4 font-weight-normal">Наиболее безопасный и быстрый способ попросить помощь</h1>
-        <p class="lead font-weight-normal">Здесь вы можете найти адвоката, психолога, врача и нужную вам поддержку</p>
-        <a class="btn btn-outline-secondary" href="#">
-            <i class="fa-telegram"></i>
-            Открыть телеграм
-        </a>
+    <div class="container">
+        <div class="main-info">
+            <h1>Наиболее безопасный и быстрый способ попросить помощь</h1>
+            <p class="mb-5">Здесь вы можете найти адвоката, психолога, врача <br/> и нужную вам поддержку.</p>
+            <a href="https://t.me/tut_pomogut_bot" target="_blank" class="tgBtn">Открыть Telegram</a>
+        </div>
     </div>
-</div>
+</section>
 
-<div class="about d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-    <div class="about__left">
-        <div class="about__flag"></div>
-        <div class="about__flag-copyright">Фото: EPA-EFE/YAUHEN YERCHAK</div>
+<section class="botInfo container-fluid py-5 px-0">
+    <div class="row mx-0 flex-column-reverse flex-lg-row">
+        <div class="col-12 col-lg-6 zhyve">
+            <img src="img/botInfo/Image_Bel.jpg" alt="БЧБ" class="w-100">
+            <small class="">Фото: EPA-EFE/YAUHEN YERCHAK</small>
+        </div>
+        <div class="col-12 col-lg-6 advantages">
+            <div class="item">
+                <p class="title"><i class="icon-timer"></i> Быстро</p>
+                <p class="text">Вся связь происходит через бота в Телеграме, не надо никуда дозваниваться и путано объясняться с оператором</p>
+            </div>
+
+            <div class="item">
+                <p class="title"><i class="icon-tg red"></i> Надёжно</p>
+                <p class="text">
+                    Практика показывает, что Телеграм — это последнее, что получается отключить в Интернете, вся связь идёт только по зашифрованным
+                    каналам
+                </p>
+            </div>
+
+            <div class="item">
+                <p class="title"><i class="icon-lock"></i> Конфиденциально</p>
+                <p class="text">
+                    Для получения помощи не обязательно указывать своё настоящее имя или номер телефона, а все сообщения в боте автоматически исчезают
+                    спустя какое-то время.
+                </p>
+            </div>
+        </div>
     </div>
-    <div class="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 overflow-hidden">
-        <ul>
-            <li>
-                <i class="far fa-clock"></i>
-                <h4>Быстро</h4>
-                Вся связь происходит через бота в Телеграме, не надо никуда дозваниваться и путанно объясняться с оператором
-            </li>
-            <li>
-                <i class="fa-telegram"></i>
-                <h4>Надежно</h4>
-                Практика показывает, что Телеграм — это последнее, что получается отключить в Интернете; вся связь идёт только по зашифрованным каналам
-            </li>
-            <li>
-                <i class="fa-lock"></i>
-                <h4>Конфиденциально</h4>
-                Для получения помощи не обязательно указывать своё настоящее имя или номер телефона, а все сообщения в боте автоматически исчезают спустя какое-то время.
-            </li>
-        </ul>
-    </div>
-</div>
+</section>
 
-<div class="container marketing mt-5 mb-5">
-
+<section class="threeSimpleSteps container-fluid py-5">
     <div class="row">
-        <div class="col-md-12 text-center pb-3">
-            <h2 class="font-weight-bold">3 простых шага</h2>
-        </div>
-    </div>
-
-    <div class="row text-center">
-        <div class="col-lg-4">
+        <h1 class="d-block text-center w-100">3 простых шага</h1>
+        <div class="col-12 col-lg-4 mt-5 mt-lg-0">
             <h3>Выбери необходимую помощь</h3>
-            <img src="assets/images/step-1.svg">
+            <img src="img/threeSimpleSteps/chat.png" alt="чат">
         </div>
-        <div class="col-lg-4">
+        <div class="col-12 col-lg-4 mt-5 mt-lg-0">
             <h3>Поделись пресональной информацией</h3>
-            <img src="assets/images/step-2.svg">
+            <img src="img/threeSimpleSteps/map.png" alt="карта">
         </div>
-        <div class="col-lg-4">
+        <div class="col-12 col-lg-4 mt-5 mt-lg-0">
             <h3>Ожидай подходящего волонтера</h3>
-            <img src="assets/images/step-3.svg">
+            <img src="img/threeSimpleSteps/icons.png" alt="помощь">
+        </div>
+
+        <a href="https://t.me/tut_pomogut_bot" target="_blank" class="askForHelp">Попросить помощь</a>
+    </div>
+</section>
+
+<section class="ourTeam container-fluid py-5">
+    <div class="row wrapper">
+        <p class="info">
+            Мы Kоманда независимых разработчиков и неравнодушных беларусов,
+            при участии инициативы «Probono.by»,
+            которые помогают связать пострадавшего с людьми, которые готовы ему помочь.
+        </p>
+        <div class="whoWeAre d-flex align-items-center flex-wrap">
+            <img src="img/whoWeAre/heart.svg" alt="сердце">
+            <span class="symbol">+</span>
+            <i class="icon-code"></i>
+            <span class="symbol">=</span>
+            <a href="https://t.me/tut_pomogut_bot" target="_blank" class="tg_link">t.me/tut_pomogut_bot</a>
         </div>
     </div>
-
-    <div class="text-center mt-3">
-            <a class="btn btn-outline-secondary">Попросить помощь</a>
-    </div>
-
-</div>
-
-<div class="container marketing">
-
-    <div class="row featurette">
-        <div class="col-md-7">
-            <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-        </div>
-    </div>
-
-</div>
-
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-        crossorigin="anonymous"></script>
+</section>
+<section class="probono container-fluid">
+    <p>
+        Данный канал связи является частью «Информационного центра открытых инициатив помощи пострадавшим»
+        <a href="https://probono.by/" target="_blank">https://probono.by/</a>
+    </p>
+</section>
 </body>
 </html>

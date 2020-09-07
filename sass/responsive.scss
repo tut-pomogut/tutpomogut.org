@@ -1,0 +1,107 @@
+@media (max-width: 991px) {
+  .main {
+    .logo::before {
+      background: url(/img/main/logo.svg) no-repeat;
+    }
+
+    .tg_link {
+      display: none;
+    }
+
+    .become_volunteer {
+      font-size: 100%;
+      margin: -15px -15px 0 -45px;
+    }
+  }
+
+  .threeSimpleSteps {
+    h1 {
+      font-size: 30px;
+    }
+
+    h3 {
+      font-size: 18px;
+    }
+  }
+
+  .botInfo {
+    .zhyve {
+      padding: 0;
+
+      img {
+        margin: 0;
+      }
+    }
+  }
+
+  .ourTeam {
+    min-height: 550px;
+
+    &::after {
+      content: '';
+      background-position: bottom center;
+      background-size: 75%;
+      height: 100%;
+      width: 100%;
+      display: block;
+      position: absolute;
+      top: auto;
+      bottom: 0;
+      left: 0;
+    }
+
+    .wrapper {
+      .info {
+        font-size: 18px;
+        margin-left: 0;
+        width: 100%;
+        padding: 0 30px;
+      }
+
+      .whoWeAre {
+        margin-left: 0;
+        width: 100%;
+        padding: 0 30px;
+      }
+    }
+  }
+
+  .probono {
+    padding: 15px;
+
+    p {
+      margin-left: 0;
+      width: 100%;
+      font-size: 14px;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+
+  .ourTeam {
+
+    .wrapper {
+
+      .whoWeAre {
+        img {
+          width: 20px;
+        }
+
+        .symbol {
+          font-size: 25px;
+          padding: 0 5px;
+        }
+
+        i {
+          font-size: 13px;
+        }
+
+        .tg_link {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}
+
