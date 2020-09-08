@@ -1,0 +1,78 @@
+$red: #DB1417;
+
+body.white {
+
+  .tg_link:not(.white) {
+    color: $red;
+  }
+
+  .main {
+    background: #fff;
+
+
+    &::before {
+      background: url(../img/main/main_bg_grey.svg) no-repeat bottom center;
+    }
+
+
+    .logo {
+      &::before {
+        color: $red;
+      }
+    }
+
+    .become_volunteer {
+      color: $red;
+
+      &:hover {
+        color: #fff;
+        text-decoration: none;
+        background: #e67061;
+      }
+    }
+
+    .main-info {
+      h1 {
+        color: $red;
+      }
+
+      p {
+        color: #595959;
+      }
+
+      .tgBtn {
+        background: #1d98dc;
+        color: #fff;
+
+        &:hover {
+          background: #fff;
+          color: #1d98dc;
+          border-color: #1d98dc;
+
+          &::before {
+            color: #1d98dc;
+          }
+        }
+
+        &::before {
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  .ourTeam {
+
+    &::after {
+      content: '';
+      background: url("../img/whoWeAre/phone_medical.png") no-repeat center right;
+      background-size: contain;
+      height: 100%;
+      width: 90%;
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+}

@@ -1,3 +1,4 @@
+
 * {
   font-family: 'Montserrat', sans-serif;
 }
@@ -46,12 +47,14 @@
     padding-top: 30px;
   }
 
-  .logo::before {
-    content: '';
-    background: url(/img/main/logo_long.svg) no-repeat;
-    background-size: contain;
-    height: 50px;
-    display: block;
+  .logo{
+    &::before {
+      content: '\a10';
+      font-family: 'icomoon';
+      font-size: 50px;
+      color: #fff;
+      display: block;
+    }
   }
 
   .become_volunteer {

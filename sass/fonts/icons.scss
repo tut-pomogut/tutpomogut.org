@@ -24,6 +24,32 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+@mixin red {
+  &.red {
+    &:before {
+      color: #DB1417;
+    }
+  }
+}
+
+.icon-logo_long {
+  &:before {
+    content: "\a10";
+    color: #fff;
+  }
+
+  @include red;
+}
+
+.icon-logo {
+  :before {
+    content: "\a9";
+    color: #fff;
+  }
+
+  @include red;
+}
+
 .icon-code:before {
   content: "\a5";
   color: #fff;
@@ -45,9 +71,5 @@
     color: #1d98dc;
   }
 
-  &.red {
-    &:before {
-      color: #db1417;
-    }
-  }
+  @include red;
 }
